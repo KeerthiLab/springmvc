@@ -26,6 +26,9 @@
 		<c:if test="${empty demo.name}">
 			Welcome to Spring MVC Demo Project!
 		</c:if>
+		<c:if test="${empty demo.name}">
+			This is Spring MVC GIT Practice Project!
+		</c:if>
     </p>
     <p>
 	<a class="btn btn-primary btn-lg" href="./demo/show" role="button">Home</a>
